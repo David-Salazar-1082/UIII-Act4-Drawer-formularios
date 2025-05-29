@@ -42,7 +42,6 @@ class HomePage extends StatelessWidget {
     accountEmail: Text("a.22308051281082@cbtis128.edu.mx"),
     currentAccountPicture: GestureDetector(
     child: CircleAvatar(
-      child: CircleAvatar(
                   child: Text(
                     "AM",
                     style: TextStyle(
@@ -50,11 +49,10 @@ class HomePage extends StatelessWidget {
                         fontSize: 20.0,
                         fontWeight: FontWeight.bold),
                   ),
-                  backgroundColor: Colors.white,
+                  backgroundColor: Colors.green,
                 ),
     ),
     ),
-  )
   ],
   ),
   ),
